@@ -1,0 +1,24 @@
+body {
+  background: linear-gradient(180deg, white, pink);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: hotpink;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 20px; }
+
+body .randomize {
+  padding: 1rem 1rem;
+  margin-left: 40%;
+  margin-right: 40%;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  color: white;
+  background-color: hotpink;
+  border-color: hotpink; }
+
+p {
+  padding-top: 30px; }

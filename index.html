@@ -1,26 +1,88 @@
 <!doctype html>
 <html class="" lang="en">
 
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>Week 5, Part 2</title>
+  <title>Silly Story Generator</title>
 
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
+<body>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-4"><strong>Silly Story Generator&#8482;</strong></h1>
+  <p class="lead">Build a unique story by following 3 easy steps and clicking the button below.</p>
+  <p class="lead">The <strong>SSG&#8482;</strong> will craft a tale sure to rock your socks off- or your money back*</p>
+</div>
 
-  <body>
+<div class="container">
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Step 1</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title"><small>Enter Your Name</small></h1>
+        <div>
+          <label for="customname">Hello, My Name Is...</label>
+          <input id="customname" type="text" placeholder="">
+        </div>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Step 2</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title"><small>Choose a Country</small></h1>
+        <div>
+          <label for="us">US</label><input id="us" type="radio" name="ukus" value="us">
+          <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+        </div>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Step 3</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title"><small>Pick a Flower</small></h1>
+        <label for="wisteria">Wisteria</label><input id="wisteria" type="radio" name="flower" value="wisteria">
+        <label for="hibiscus">Hibiscus</label><input id="hibiscus" type="radio" name="flower" value="hibiscus">
+        <label for="rose">Rose</label><input id="rose" type="radio" name="flower" value="rose">
+      </div>
+    </div>
+  </div>
+  <div>
+     <button class="randomize"><strong>Generate Story</strong></button>
+   </div>
 
-    <h1>Week 5, Part 2</h1>
+<!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+<p class="story"></p>
 
-	</body>
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+        <small class="d-block mb-3 text-muted">&copy; 2020</small>
+      </div>
+      <div class="col-12 col-md">
+        <img class="mb-2" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+        <small class="d-block mb-3 text-muted">*money will not be returned as none was accepted in the story generation process</small>
+      </div>
+    </div>
+  </footer>
+</div>
 
+<!-- /.container -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
 </html>
